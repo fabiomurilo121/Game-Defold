@@ -1,0 +1,130 @@
+animations {
+  id: "Idle"
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_idle.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 30
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Walking-Right"
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk0.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk3.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk4.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk5.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk6.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk7.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 19
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Running-Right"
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_run0.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_run1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_run2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 14
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "Walking-Left"
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk0.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk3.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk4.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk5.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk6.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_walk7.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 19
+  flip_horizontal: 1
+  flip_vertical: 0
+}
+animations {
+  id: "Running-Left"
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_run0.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_run1.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/main/Sprites/Images/character_femalePerson_run2.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 14
+  flip_horizontal: 1
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0
